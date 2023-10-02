@@ -1,0 +1,66 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+  @font-face {
+    font-family: beleleu;
+    src: url('Circus.ttf');
+ 
+  }
+
+body{
+    background-image:url(WhatsApp\ Image\ 2023-10-02\ at\ 10.18.08.jpeg);
+  }
+  header{
+      font-size: 30pt;
+      color: rgb(0, 0, 0);
+    }
+    header h1{
+        text-align: center;
+        font-family: 'beleleu', cursive;
+        
+    }
+    .secaojornal{
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30pt;
+    }
+    
+    #secao1{
+        color: #fffbfb;
+        column-count:3;
+        column-gap: 50px;
+        column-rule-style:solid;
+        padding: 10px;
+    }
+    
+    #secao1 h2{
+    text-align: center;
+    color: aliceblue;
+    column-span:all;
+    font-size: 50pt;
+    font-family:'fonte',cursive;
+   
+}
+
+#secao2{
+    column-count: 3;
+    padding: 10px;
+}
+
+#secao2 h2{
+    column-span: all;
+    font-size: 50pt;
+    text-align: center;
+}
+
+#fv{
+    width: 25vw;
+}
+main{
+    width: 80vw;
+    margin-left: 10vw;
+    background-color: rgb(184, 170, 131);
+    box-shadow: 10px 10px 10px black;
+
+}
+  
